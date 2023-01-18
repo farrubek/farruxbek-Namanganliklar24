@@ -121,9 +121,38 @@ body{
 .lang-toggle-link-activ{
   background:#fff;
 }
-
-
-
+/* SITE NAV  */
+.sitenav{
+  border-bottom: 1px solid #908d8d;
+  padding: 30px 0px 20px 0px ;
+  margin-bottom: 40px;
+}
+.sitenav-list{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.sitenav-item{
+  list-style: none;
+}
+.sitenav-link{
+  font-size: 18px;
+  line-height: 21px;
+  font-family: Rubik;
+  font-weight: 500;
+  text-decoration: none;
+  color:#7F7F7F;
+}
+.sitenav-link:hover{
+  opacity: 0.8;
+}
+.sitenav-link:active{
+  opacity: 0.5;
+}
+/* SITE HEADER BANER */
+.site-header-banner-link{
+  display: flex;
+}
 
 
 
