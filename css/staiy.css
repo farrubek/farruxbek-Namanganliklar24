@@ -90,6 +90,13 @@ body{
 .global-search-form{
   margin-right: 25px;
 }
+.global-search-form::before{
+  content:"";
+  width: 20px;
+  height: 20px;
+  background-image:url(../img/poisk.png)
+  border1px solid red;
+}
 .global-search-form-input{
   padding:15px 0px 13px 45px;
   border: 0px;
