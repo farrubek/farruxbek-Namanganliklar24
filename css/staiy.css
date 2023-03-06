@@ -132,7 +132,6 @@ body{
 .sitenav{
   border-bottom: 1px solid #908d8d;
   padding: 30px 0px 20px 0px ;
-  margin-bottom: 40px;
 }
 .sitenav-list{
   display: flex;
@@ -159,6 +158,7 @@ body{
 /* SITE HEADER BANER */
 .site-header-banner-link{
   display: flex;
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
@@ -411,4 +411,70 @@ body{
 .footer-icons li i{
   font-size: 25px;
   margin-left: 25px;
+}
+
+/* MODAL SECTION */
+.modal{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  position:fixed;
+  display: none;
+}
+.modal-open{
+  display:block;
+}
+.modal__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background:#0000005c;
+
+
+}
+.modal__content {
+  width: 100%;
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  background:#fff;
+  padding: 20px;
+  margin: auto;
+  border-radius:15px;
+}
+.modal__button {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: relative;
+}
+.button-clos {
+  display: inline-block;
+  right: 40px;
+  top:0px;
+  border:none;
+  background:none;
+  cursor:pointer;
+}
+
+.content-heading {
+  text-align: center;
+  font-family: 'rubik',sans-serif;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 500;
+
+}
+.content-button-orang {
+  width: 130px;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius:8px;
+  border:none;
+  background:#F78B3B;
+  margin:20px auto;
+  cursor: pointer;
+
 }
